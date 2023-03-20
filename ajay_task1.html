@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+    <title>
+      Python List methods 
+    </title>    
+
+    <style type="text/css">
+
+        body{
+            background-color: #e8d7eb;
+        }
+       
+       table{
+
+        /* border-radius: 50px; */
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+       }
+
+       .round_cells{
+        border-radius: 50px;
+        border: 2px solid rgb(245,222,179);
+        padding: 10px 20px;
+        color: rgb(245,222,179);
+
+       }
+
+       .rect_cells{
+        border-radius: 5px;
+        border: 2px solid black;
+       }
+
+       th{
+        /* border: 2px solid black; */
+        background-color: #caabc8;
+        font-size: 20px;
+    
+       }
+
+       h1 {
+        font-weight: bold;
+        font-size: 40px;
+        color: #2830c9;
+        padding: 80px;
+        height:100;
+        background-color : rgb(221, 147, 219);
+        text-align: center;
+       }
+
+       .color1{
+        color: #e64c21;
+        border-color: #e8533c;
+        font-size: 25px;
+       }
+
+       .color2{
+        color: #0b24a0;
+        border-color: #2421d2;
+        font-size: 25px;
+       }
+
+       .color3{
+        color: #841ba7;
+        border-color: #1bae89d4;
+        font-size: 25px;
+       }
+
+       .arrow1{
+       color: #9F6AA1;
+       font-weight: bold;
+       font-size: 40px;
+       }
+
+       .arrow2{
+       color: #9B67D6;
+       font-weight: bold;
+       font-size: 40px;
+       }
+
+    </style>
+
+</head>
+
+<body>
+    <h1> Python List Methods </h1>
+   <table border="0" cellspacing="10" cellpadding="10" >
+        <tr>
+            <th class="color1" style="color:rgb(203, 39, 28)"> Input </th>
+            <th colspan="3" class="color2" style="color:rgb(49, 31, 180)"> Method </th>
+            <th class="color3" style="color: rgb(57, 185, 34);"> Output </th>
+        </tr>
+        
+        <tr>
+            <td class="round_cells color1" > [ 4, 3, 5 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > sort() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 3, 4, 5 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > clear() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > append(4) </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 1, 2, 3, 4 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 1, 1, 2 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > count(1) </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3">  3  </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > extend([ 4 ]) </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 1, 2, 3, 4 ] </td>
+            </tr>
+
+            <tr>
+                <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+                <td class="arrow1" > &#8680; </td>
+                <td class="rect_cells color2" > insert(3 , 4) </td>
+                <td class="arrow2" > &#8680; </td>
+                <td class="round_cells color3"> [ 1, 2, 3, 4 ] </td>
+            </tr>
+
+            <tr>
+                <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+                <td class="arrow1" > &#8680; </td>
+                <td class="rect_cells color2" > index(2) </td>
+                <td class="arrow2" > &#8680; </td>
+                <td class="round_cells color3"> 1 </td>
+            </tr>
+
+            <tr>
+                <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+                <td class="arrow1" > &#8680; </td>
+                <td class="rect_cells color2" > remove(2) </td>
+                <td class="arrow2" > &#8680; </td>
+                <td class="round_cells color3"> [ 1, 3 ] </td>
+            </tr>
+
+        <tr><tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > pop(2) </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 1, 2 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > reverse() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 3, 2, 1 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > copy() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 1, 2, 3 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > copy() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> [ 1, 2, 3 ] </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > len() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> 3 </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > min() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> 1 </td>
+        </tr>
+
+        <tr>
+            <td class="round_cells color1"> [ 1, 2, 3 ] </td>
+            <td class="arrow1" > &#8680; </td>
+            <td class="rect_cells color2" > max() </td>
+            <td class="arrow2" > &#8680; </td>
+            <td class="round_cells color3"> 3 </td>
+        </tr>
+
+            <td> </td>
+            <td> </td>
+        </tr>
+   </table> 
+
+</body>
+</html>
